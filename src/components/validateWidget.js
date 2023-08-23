@@ -56,6 +56,7 @@ export default class ValidateWidget {
     if (!valid) {
       this.message.textContent = 'Invalid card number';
     } else {
+      this.message.textContent = 'Hey';
       const system = ValidateWidget.defineSystem(this.input.value);
       this.clearSystemImg();
       this.setSystemImg(system);

@@ -15,7 +15,6 @@
   },
   "author": "nika",
   "license": "ISC",
-  "type": "module",
   "devDependencies": {
     "@babel/cli": "^7.22.10",
     "@babel/core": "^7.22.10",
