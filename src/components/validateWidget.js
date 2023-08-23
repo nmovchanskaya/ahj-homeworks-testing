@@ -36,7 +36,7 @@ export default class ValidateWidget {
         <div class = "message"></div>
     </form>
     `;
-}
+  }
 
   bindToDOM() {
     this.parentElem.innerHTML = ValidateWidget.markup;
@@ -83,8 +83,8 @@ export default class ValidateWidget {
         || cardNum.substring(0, 2) === '53'
         || cardNum.substring(0, 2) === '54'
         || cardNum.substring(0, 2) === '55'
-        || Number(cardNum.substring(0, 6)) >= 222100
-        && Number(cardNum.substring(0, 6)) <= 272099
+        || (Number(cardNum.substring(0, 6)) >= 222100
+        && Number(cardNum.substring(0, 6)) <= 272099)
     ) {
       return 'mastercard';
     }

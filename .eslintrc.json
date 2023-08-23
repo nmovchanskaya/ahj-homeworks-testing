@@ -29,6 +29,7 @@
         "new-cap": "off",
         "no-loop-func": "off",
         "no-constant-condition": "off",
-        "no-alert": "off"
+        "no-alert": "off",
+        "class-methods-use-this": "off"
     }
 }
