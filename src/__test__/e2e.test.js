@@ -1,4 +1,4 @@
-import { fork } from 'child_process';
+import fork from 'child_process';
 import puppetteer from 'puppeteer';
 
 jest.setTimeout(30000); // default puppeteer timeout
