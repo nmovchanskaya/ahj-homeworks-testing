@@ -39,6 +39,7 @@ describe('Credit Card Validator form', () => {
 
     await input.type('4444123412341234');
     await button.click();
+    await page.screenshot({path: './screenshot.png'});
 
     await page.waitForSelector('.active > .visa');
   });
